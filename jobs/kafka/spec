@@ -47,11 +47,6 @@ properties:
     description: "Switch to enable topic deletion or not"
     default: false
 
-  insecure_plaintext:
-    description: |
-      If set, allows plaintext connections to Kafka by clients with no authentication.
-    default: true
-
   tls.ca_certs:
     description: |
       List of CA certs used to verify clients (and other Kafka brokers) that connect to us

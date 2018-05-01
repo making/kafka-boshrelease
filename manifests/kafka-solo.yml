@@ -21,8 +21,7 @@ instance_groups:
     properties: {}
   - name: kafka
     release: kafka
-    properties:
-      insecure_plaintext: true
+    properties: {}
   - name: kafka-manager
     release: kafka
     properties:
