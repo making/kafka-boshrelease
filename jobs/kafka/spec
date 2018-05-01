@@ -54,3 +54,10 @@ properties:
   transaction.state.log.min.isr:
     description: "Overridden min.insync.replicas config for the transaction topic"
     default: 2
+
+  advertised.listener:
+    desctiption: |-
+      List of hostname and port of an advertised listener for each kafka broker, e.g.
+      - cluster1.foo.com:9092 # for broker1
+      - cluster2.foo.com:9092 # for broker2
+      - cluster3.foo.com:9092 # for broker3
