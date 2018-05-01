@@ -42,3 +42,10 @@ properties:
   delete_topic:
     description: "Switch to enable topic deletion or not"
     default: false
+
+  advertised.listener:
+    desctiption: |-
+      List of hostname and port of an advertised listener for each kafka broker, e.g.
+      - cluster1.foo.com:9092 # for broker1
+      - cluster2.foo.com:9092 # for broker2
+      - cluster3.foo.com:9092 # for broker3
